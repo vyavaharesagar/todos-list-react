@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=RGKi6LSPDLU&ab_channel=CodeWithHarry
+
+npx create-react-app todos-list (one time use)
+npm (for downlading the package) 
+npm start  - to start development server
+
+you can make two types of componants
+
+class based componants
+function based componants (we are going to learn this)
+
+Es6 React navtive snippets extension
+
+rfc -- react functional componant
+rafc
+
+props - it is an javascript object which we are using to pass the variable from a parent componant to child componant
+
+Default props
+props types
+
+use state hook
+
+How to add style
+
+inline = make an object 
+
+useeffect hook
+
