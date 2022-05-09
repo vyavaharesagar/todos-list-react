@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const AddTodo = (props) => {
+export const AddTodo = ({addTodo}) => {
     const [title, setTitle] = useState("")
     const [desc, setDesc] = useState("")
     const submit = (e)=>{
@@ -8,7 +8,11 @@ export const AddTodo = (props) => {
         if(!title || !desc){
             alert("Title or Description can not be black");
         }
-        props.addTodo(title, desc);
+        else{
+        addTodo(title, desc);
+        setTitle("");
+        setDesc("");
+        }
     }
   return (
     <>

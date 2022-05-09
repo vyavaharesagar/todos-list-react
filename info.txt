@@ -27,3 +27,13 @@ inline = make an object
 
 useeffect hook
 
+
+Each child in a list should have a unique "key" prop.
+
+React Router
+
+npm install -S react-router-dom
+
+
+react router dom
+
